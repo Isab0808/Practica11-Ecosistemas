@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="contenedorInputs">
+        <input id="inputNombre" type="text" placeholder="Escribe tu nombre de usuario">
+        <input id="inputPublicacion" type="text" placeholder="Escribe tu publicación">
+        <button id="publicarbtn">Publicar</button>
+
+
+    </div>
+    <div id="postContainer">
+
+
+
+    </div>
+
+</body>
+
+</html>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtC5EHLtprD8f0uDr8Pb5-6DHuLch_ygk",
+        authDomain: "practica-10-ecosistemas.firebaseapp.com",
+        projectId: "practica-10-ecosistemas",
+        storageBucket: "practica-10-ecosistemas.appspot.com",
+        messagingSenderId: "34040184014",
+        appId: "1:34040184014:web:33cee2292500037ad1649f",
+        measurementId: "G-TYWQWMSWLR"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/post.js"></script>
+<script src="js/comments.js"></script>
+
+<script src="js/index.js"></script>

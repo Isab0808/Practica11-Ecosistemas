@@ -1,0 +1,78 @@
+
+#contenedorInputs{
+    display:  flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+}
+
+#contenedorInputs * {
+
+    height: 40px;
+    align-content: center;
+
+}
+#publicarbtn{
+
+    background-color: #4471C4;
+    color: cornsilk;
+}
+
+.post{
+
+    
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: lightgrey;
+}
+.username{
+    background-color: #F1F1F1;
+    margin: 5px;
+    position: absolute;
+    font-weight: bold;
+    padding: 10px;
+    right: 0;
+
+
+}
+.postmessage{
+    background-color: #F1F1F1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.inputComment{
+
+    height: 30px;
+    margin: 5px;
+    width: 95%;
+    
+}
+.btnComentar{
+
+    background-color: #4471C4;
+    height: 35px;
+    margin: 5px;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+
+}
+.messageContainer{
+
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+    background-color: ghostwhite;
+    
+}
+.contenedorBoton{
+
+    position: relative;
+}
